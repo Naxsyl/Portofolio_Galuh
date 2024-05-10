@@ -85,3 +85,9 @@
 .card {
   border-radius: 20px;
 }
+.card-body:hover {
+  background-color: #8576ff;
+  color: white;
+  transition: 0.8s;
+  border-radius: 0 0 20px 20px;
+}
