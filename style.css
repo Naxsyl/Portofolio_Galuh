@@ -4,18 +4,23 @@
   font-family: "Kanit", sans-serif;
   text-decoration: none;
 }
+
+body {
+  overflow-x: hidden;
+}
+
 .nav-link:hover {
   text-decoration: underline #8576ff;
   font-size: 26px;
   transition: 0.5s;
 }
 .navbar {
-  background-color: #E9ECEF;
+  background-color: #e9ecef;
   transition: 0.8s;
 }
 .navbar.sticky {
   background-color: #f6f5f2;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .navbar-brand h1 {
   font-size: 30px;
@@ -84,10 +89,4 @@
 }
 .card {
   border-radius: 20px;
-}
-.card-body:hover {
-  background-color: #8576ff;
-  color: white;
-  transition: 0.8s;
-  border-radius: 0 0 20px 20px;
 }
